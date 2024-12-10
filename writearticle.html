@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Write Article - My Insight</title>
+    <link rel="stylesheet" href="writearticlestyle.css">
+</head>
+<body>
+    <!-- 헤더 -->
+    <header>
+        <div class="logo">My Insight</div>
+        <nav>
+            <ul>
+                <li><a href="main.html">의견 수렴</a></li>
+                <li><a href="main.html">정치</a></li>
+                <li><a href="main.html">과학</a></li>
+                <li><a href="main.html">기술</a></li>
+                <li><a href="main.html">경제</a></li>
+                <li><a href="main.html">사회</a></li>
+                <li><a href="main.html">스포츠</a></li>
+                <li><a href="main.html">생활</a></li>
+            </ul>
+        </nav>
+        <div class="user-options">
+            <a href="#">Log In</a> | <a href="#">Sign Up</a>
+        </div>
+    </header>
+
+    <!-- 메인 컨테이너 -->
+    <main>
+        <h1>기사 작성</h1>
+        <!-- writearticle.html -->
+        <form action="/submit-article" method="POST">
+            <input type="text" name="title" placeholder="기사 제목" required>
+            <textarea name="content" placeholder="기사 내용" required></textarea>
+            <button type="submit">제출</button>
+        </form>
+
+
+        
+
+        <!-- 돌아가기 버튼 -->
+        <div class="back-button">
+            <a href="main.html">My Insight</a>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Expert News. All rights reserved.</p>
+    </footer>
+</body>
+</html>
